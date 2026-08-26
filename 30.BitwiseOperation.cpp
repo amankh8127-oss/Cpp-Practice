@@ -8,6 +8,7 @@ int main(){
     cout << "(a^b) = " << (a^b) << endl;
     // bitwise left shift operation
     cout << "(4<<1) = " << (4<<1) << endl;
+    cout << "(10<<2) = " << (10<<2) << endl;
     // bitwise right shift operation
     cout << "(4>>1) = " << (4>>1) << endl;
     return 0;
