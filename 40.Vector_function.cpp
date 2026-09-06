@@ -18,5 +18,12 @@ int main(){
     v.pop_back();
     v.pop_back();
     cout << "size of vector is: " << v.size() << endl;
+    cout << v.back() << endl;   // return the last element of vector
+    cout << v.front() << endl;  // return the first element of vector
+    cout << v.empty() << endl;  // return 0 if vector is empty and 1 if vector is not empty 
+    cout << v.capacity() << endl;  // return the capacity of vector 
+    cout << v.max_size() << endl;  // return the max size of vector
+    cout << v.at(2) << endl;    // return the element at index 2
+    cout << v.data() << endl;  // return the address of first element of vector
     return 0;
 }
