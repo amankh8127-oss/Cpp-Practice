@@ -1,4 +1,6 @@
 #include<iostream>
+#include<climits>
+#include<algorithm>
 using namespace std;
 int main(){
     int num[5] = {5, 2, 9, 1, 6};
@@ -16,6 +18,8 @@ int main(){
 
     cout << "Largest: " << largest << endl;
     cout << "Smallest: " << smallest << endl;
+    cout << "Index of largest: " << (find(num, num + 5, largest) - num) << endl;
+    cout << "Index of smallest: " << (find(num, num + 5, smallest) - num) << endl;
 
     return 0;
 }
