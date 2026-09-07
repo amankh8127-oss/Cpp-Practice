@@ -24,7 +24,8 @@ int main() {
     vector<int> result = majorityElement(v);
     if(!result.empty()) {
         cout << "The majority element is: " << result[0] << endl;
-    } else {
+    }
+    else {
         cout << "No majority element found." << endl;
     }
     return 0;
